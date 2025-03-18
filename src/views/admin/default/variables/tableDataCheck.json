@@ -1,0 +1,18 @@
+[
+  {
+    "accounts": "Operating Account",
+    "balances": 2458
+  },
+  {
+    "accounts": "Payroll Account",
+    "balances": 2458
+  },
+  {
+    "accounts": "Credit Card Account",
+    "balances": 2458
+  },
+  {
+    "accounts": "Accounts Receivable",
+    "balances": 2458
+  }
+]

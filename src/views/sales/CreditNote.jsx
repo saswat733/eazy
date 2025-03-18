@@ -1,13 +1,11 @@
 import { useState } from "react";
-import Flatpickr from "react-flatpickr";
 import ComponentCard from "components/common/ComponentCard";
 import Label from "../../components/form/Label";
 import Input from "components/form/input/InputField";
 import Select from "components/form/Select";
-import { FaEyeSlash, FaRegCalendarAlt } from "react-icons/fa";
+import { FaEyeSlash } from "react-icons/fa";
 import { IoEyeSharp } from "react-icons/io5";
 import { IoMdTime } from "react-icons/io";
-import SelectInputs from "components/form/form-elements/SelectInputs";
 
 export default function CreditNote() {
   const [showPassword, setShowPassword] = useState(false);
@@ -19,11 +17,11 @@ export default function CreditNote() {
   const handleSelectChange = (value) => {
     console.log("Selected value:", value);
   };
-  const [dateOfBirth, setDateOfBirth] = useState("");
+//   const [dateOfBirth, setDateOfBirth] = useState("");
 
-  const handleDateChange = (date) => {
-    setDateOfBirth(date[0].toLocaleDateString()); // Handle selected date and format it
-  };
+//   const handleDateChange = (date) => {
+//     setDateOfBirth(date[0].toLocaleDateString()); // Handle selected date and format it
+//   };
 
 
   return (

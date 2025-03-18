@@ -1,6 +1,3 @@
-import { ReactNode } from "react";
-
-
 const Button = ({
   children,
   size = "md",

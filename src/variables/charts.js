@@ -1,6 +1,6 @@
 export const barChartDataDailyTraffic = [
   {
-    name: "\Sales",
+    name: "Sales",
     data: [20, 30, 40, 20, 45, 50, 30,20, 45, 50, 30,20],
   },
 ];

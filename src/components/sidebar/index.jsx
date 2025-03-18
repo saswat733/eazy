@@ -1,16 +1,11 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useSidebar } from "../../context/SidebarContext";
-import { MdAccountBalanceWallet, MdDashboard, MdLockPerson, MdOutlineBarChart, MdOutlineInsertPageBreak } from "react-icons/md";
-import SidebarWidget from "./components/SidebarWidget";
+import { MdAccountBalanceWallet, MdDashboard, MdLockPerson, MdOutlineBarChart } from "react-icons/md";
 import { IoIosArrowDown } from "react-icons/io";
 import { HiDocumentReport, HiOutlineDotsHorizontal } from "react-icons/hi";
-import { IoPieChartOutline } from "react-icons/io5";
-import { FaMoneyCheckAlt, FaRegUserCircle } from "react-icons/fa";
-import { SiReacthookform } from "react-icons/si";
-import { TbTableShortcut } from "react-icons/tb";
-import { BiCube, BiSolidBuildingHouse } from "react-icons/bi";
-import { CiPlug1 } from "react-icons/ci";
+import { FaMoneyCheckAlt } from "react-icons/fa";
+import {  BiSolidBuildingHouse } from "react-icons/bi";
 import { RiBankFill } from "react-icons/ri";
 
 const navItems = [

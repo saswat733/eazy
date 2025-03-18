@@ -2,7 +2,7 @@ import React from "react";
 import { Provider } from "react-redux";
 // import AppRouter from "navigation/AppRouter";
 import store from "features/store";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import AppLayout from "layouts/admin/AppLayout";
 import Dashboard from "views/admin/default";
 import BankaccountSetup from "views/banking/BankaccoutSetup";

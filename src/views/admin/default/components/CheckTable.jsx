@@ -1,6 +1,5 @@
 import React from "react";
 import CardMenu from "components/card/CardMenu";
-import Checkbox from "components/checkbox";
 import Card from "components/card";
 
 import {

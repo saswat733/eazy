@@ -1066,13 +1066,11 @@ export const REPORT_MENUS = [
       //   key: "quarterly_profit_and_loss_summary",
       //   path: "/reports?type=quarterly-profit-and-loss-summary",
       // },
-      ,
       {
         title: "Transaction by Date",
         key: "transaction_by_date",
         path: "/reports?type=transaction-by-date",
       },
-      ,
       {
         title: "Transaction by Account",
         key: "transaction_by_account",

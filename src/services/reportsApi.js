@@ -1,6 +1,5 @@
 import { createApi } from "@reduxjs/toolkit/query/react";
 import { baseQuery } from "./baseQuery";
-import { filter } from "lodash";
 
 export const reportsApi = createApi({
   reducerPath: "reportsApi",

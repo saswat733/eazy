@@ -1,14 +1,10 @@
 import React from "react";
 import {
-  MdArrowDropUp,
   MdOutlineCalendarToday,
   MdBarChart,
 } from "react-icons/md";
 import Card from "components/card";
-import {
-  lineChartDataTotalSpent,
-  lineChartOptionsTotalSpent,
-} from "variables/charts";
+
 import LineChart from "components/charts/LineChart";
 import { lineChartOptionsCashFlow } from "variables/charts";
 import { lineChartDataCashFlow } from "variables/charts";
